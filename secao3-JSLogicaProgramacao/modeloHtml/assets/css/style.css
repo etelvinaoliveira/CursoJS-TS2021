@@ -1,0 +1,86 @@
+:root{
+    --primary-color:  rgb(255, 255, 255);
+    --primary-color-darker:  rgb(0, 0, 0);
+}
+*{
+    box-sizing: border-box;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-size: 0.9em;
+    line-height: 1.5em;
+    color:#fff
+}
+
+.container{
+    max-width: 40rem;
+    margin:1.5rem auto ;
+    background:rgba(0, 0, 0, 0.801);
+    padding: 2rem;
+    border-radius:1rem;
+}
+
+form input, form label, form button{
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;   
+}
+
+form input{
+    font-size: 1.5rem;
+    height: 2rem;
+    width:95%;
+    padding: 0 1.25rem;
+}
+
+form input:focus{
+    outline: 1px solid var(--primary-color)
+}
+
+form button{
+    border:none;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 1.1rem;
+    font-weight: bold;
+    height: 3.125rem;
+    width:50%;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-left: 7rem;
+}
+
+form button:hover{
+    background: var(--primary-color-darker);
+}
+
+table {
+    width: 60%;
+    text-align: center;
+}
+
+p{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.paragrafoResultado{
+    color: #fff;
+}
+.paragrafoResultado,.bad{
+    height: 1.8rem;
+    background: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    width:75%;
+}
+.bad{
+    background: #fff;
+}

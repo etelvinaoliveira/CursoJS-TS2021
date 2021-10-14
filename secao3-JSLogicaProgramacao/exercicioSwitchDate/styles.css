@@ -1,0 +1,18 @@
+body{
+    background: rgb(159, 133, 160);
+}
+
+div{
+    background: rgb(255, 255, 255);
+    height: 15rem;
+    width: 30rem;
+    margin: 2rem auto;
+    border-radius: 2rem;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 3rem;
+    text-align: center;
+}

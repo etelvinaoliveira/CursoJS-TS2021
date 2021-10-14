@@ -1,0 +1,36 @@
+body {
+  background: rgb(143, 166, 197);
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  background: rgb(255, 255, 255);
+  height: 10rem;
+  width: 80%;
+  margin: 2rem auto;
+  border-radius: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+p {
+  text-align: center;
+  margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
+  font-size: 4rem;
+  margin-left: 1rem;
+}
+
+button {
+  margin-left: 6rem;
+}
+
+.pausado {
+  color: rgb(231, 12, 12);
+}

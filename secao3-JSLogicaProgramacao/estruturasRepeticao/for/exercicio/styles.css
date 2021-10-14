@@ -1,0 +1,15 @@
+body {
+  background: rgb(159, 133, 160);
+  margin: 0;
+  padding: 0;
+}
+section {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  width: 30rem;
+  margin: 1rem auto;
+  border-radius: 2rem;
+  font-size: 1rem;
+  padding: 1rem 0;
+}
